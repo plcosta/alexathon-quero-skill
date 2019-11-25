@@ -1,0 +1,105 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "quero pago",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelpIntent",
+                    "slots": [],
+                    "samples": [
+                        "Quais sao minhas opções",
+                        "Quais as opções",
+                        "Opções",
+                        "Quais sao minhas alternativas"
+                    ]
+                },
+                {
+                    "name": "InstallmentsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Veja se tenho alguma mensalidade pendente esse mês",
+                        "mensalidades disponíveis",
+                        "veja se tenho mensalidades disponiveis esse mes",
+                        "veja se tenho mensalidades disponiveis este mes",
+                        "veja se tenho mensalidades disponiveis",
+                        "veja se tenho mensalidade disponivel esse mes",
+                        "veja se tenho mensalidade disponivel",
+                        "mensalidades",
+                        "mensalidade",
+                        "mensalidade disponivel",
+                        "Tenho mensalidades disponíveis",
+                        "Tenho alguma mensalidade pendente esse mês"
+                    ]
+                },
+                {
+                    "name": "ClassConfirmationIntent",
+                    "slots": [],
+                    "samples": [
+                        "veja no Quero Pago se preciso levar meu livro de biologia hoje",
+                        "veja no Quero Pago se tenho aula de biologia hoje",
+                        "biologia hoje",
+                        "Hoje tem biologia",
+                        "Preciso levar meu livro de biologia hoje",
+                        "Tenho aula de biologia hoje"
+                    ]
+                },
+                {
+                    "name": "CalendarIntent",
+                    "slots": [],
+                    "samples": [
+                        "veja no Quero Pago quando é a próxima prova do meu filho",
+                        "quando é a próxima prova do andré",
+                        "prova do André",
+                        "Proxima prova do meu filho",
+                        "veja no Quero Pago quando é a próxima prova do André"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StatementIntent",
+                    "slots": [],
+                    "samples": [
+                        "prova de biologia do André",
+                        "Quero Pago quanto o André tirou na última prova de biologia",
+                        "quanto o André tirou na prova de biologia"
+                    ]
+                },
+                {
+                    "name": "WhastappIntent",
+                    "slots": [],
+                    "samples": [
+                        "me envia o boleto pendente no whatsapp",
+                        "manda o boleto",
+                        "manda o boleto por favor",
+                        "me envia esse boleto",
+                        "me envia esse boleto no whatsapp"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
